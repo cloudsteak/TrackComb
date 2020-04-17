@@ -1,0 +1,34 @@
+{
+  "name": "trackcomb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "TrackComb.js",
+  "ico": "cloudsteak.ico",
+  "scripts": {
+    "start": "node TrackComb.js",
+    "build": "nexe"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cloudsteak/TrackComb.git"
+  },
+  "keywords": [
+    "djsipp",
+    "cloudsteak",
+    "mp3",
+    "wav",
+    "dj"
+  ],
+  "author": "CloudSteak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cloudsteak/TrackComb/issues"
+  },
+  "homepage": "https://github.com/cloudsteak/TrackComb#readme",
+  "devDependencies": {
+    "nexe": "^3.3.2"
+  },
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
+}
