@@ -24,7 +24,7 @@ Here you can dinf the parameter list for usage.
 
     c: concatenate files with parent directory name (useful for Spotify downloads)
     n: normalize filenames - all first letter is capital
-    m: rename/remove files - without it this is only shows the modifications
+    m: rename/remove/modify files - without it this is only shows the modifications
     r: recursive
     d: delete subdirectories. It works only r and m together
 
@@ -35,11 +35,32 @@ Here you can dinf the parameter list for usage.
 
 * Execute JS file
 
-    node TrackComb.js -p "c:\Users\myuser\Music\Spotify" -mnrdc
+        node TrackComb.js -p "c:\Users\myuser\Music\Spotify" -mnrdc
 
 
 * Execute EXE file
 
-    TrackComb.exe -p <path> -<optional parameters>
-    TrackComb.exe -p "c:\Users\myuser\Music\Spotify" -mnrdc
+        TrackComb.exe -p "c:\Users\myuser\Music\Spotify" -mnrdc
 
+### Normalize files on a single directory
+
+* Execute JS file
+
+        node TrackComb.js -p "c:\Users\myuser\Music\Spotify" -mn
+
+
+* Execute EXE file
+
+        TrackComb.exe -p "c:\Users\myuser\Music\Spotify" -mn
+
+
+### Test: Normalize files in a directory structure recursively.
+
+* Execute JS file
+
+        node TrackComb.js -p "c:\Users\myuser\Music\Spotify" -nrc
+
+
+* Execute EXE file
+
+        TrackComb.exe -p "c:\Users\myuser\Music\Spotify" -nrc
