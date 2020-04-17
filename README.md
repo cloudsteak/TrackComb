@@ -19,6 +19,7 @@ Here you can dinf the parameter list for usage.
 
     -p: <path>
 
+*If you don't define this parameter, the default directory is:* ```<Your home directory>\Music\_import```
 
 ### Optional
 

@@ -88,14 +88,15 @@ const removeDir = function(path) {
   };
 
 let inputDirectory;
+let userHome = process.env.USERPROFILE;
 try {
     inputDirectory = externalParameters.p;
 } catch (getError) {
     //console.error(getError);
-    inputDirectory = "C:\\Users\\i505083\\Music\\_import";
+    inputDirectory =  userHome + "\\Music\\_import";
 }
 if (inputDirectory === undefined) {
-    inputDirectory = "C:\\Users\\i505083\\Music\\_import";
+    inputDirectory = userHome + "\\Music\\_import";
 }
 
 
