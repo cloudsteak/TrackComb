@@ -120,6 +120,7 @@ try {
                     console.log('--- Find files in "' + currentDirectory + '"...');
                 }
                 arrayOfWav.forEach(file => {
+                    //console.log(file);
                     if (path.extname(file).toLowerCase() === '.wav' || path.extname(file).toLowerCase() === '.mp3') {
                         let oldFileName = path.join(currentDirectory, file);
                         let newFileName = file;
